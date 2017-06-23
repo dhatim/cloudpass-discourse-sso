@@ -11,6 +11,14 @@
     "email": "msuret@dhatim.com",
     "name": "Maxime Suret"
   },
+  "homepage": "https://github.com/dhatim/cloudpass-discourse-sso/issues",
+  "bugs": {
+    "url": "https://github.com/dhatim/cloudpass-discourse-sso/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhatim/cloudpass-discourse-sso.git"
+  },
   "license": "Apache-2.0",
   "engines": {
     "node": ">=6.9.5",
