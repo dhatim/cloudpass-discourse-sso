@@ -1,6 +1,6 @@
 {
   "name": "cloudpass-discourse-sso",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Cloudpass authentication for Discourse",
   "keywords": [
     "cloudpass",
