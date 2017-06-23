@@ -1,6 +1,6 @@
 {
   "name": "cloudpass-discourse-sso",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Cloudpass authentication for Discourse",
   "keywords": [
     "cloudpass",
@@ -35,6 +35,7 @@
     "stormpath": "^0.20.1"
   },
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "postversion": "git push && git push --tags"
   }
 }
