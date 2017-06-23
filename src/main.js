@@ -49,7 +49,7 @@ express()
                             state: req.query.sso,
                             callbackUri: `${config.has('server.baseUrl')?
                                             config.get('server.baseUrl'):
-                                            //this URL will be incorrect if the portal is behind a proxy and not mounted at the root level
+                                            //this URL will be incorrect if the application is behind a proxy and not mounted at the root level
                                             url.format({
                                                 protocol: req.protocol,
                                                 host: req.get('host')
