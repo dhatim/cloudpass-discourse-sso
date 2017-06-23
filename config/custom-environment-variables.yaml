@@ -1,0 +1,10 @@
+cloudpass:
+    apiKey: CLOUDPASS_API_KEY
+    apiSecret: CLOUDPASS_API_SECRET
+    baseUrl: CLOUDPASS_BASE_URL
+
+server:
+    port: SERVER_PORT
+    #URL on which this server is accessible. Used for building callback URLs
+    baseUrl: SERVER_BASE_URL
+
